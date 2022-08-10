@@ -1,0 +1,142 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .top{
+    width: 1500px;
+    margin-bottom: 32px;
+}
+
+footer .top ul{
+    display: flex;
+    align-items: cetner;
+}
+
+footer .top ul li + li {
+    margin-left: 32px;
+}
+
+footer .top .container{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .top .title{
+    display: flex;
+    align-items: flex-end;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 16px;
+}
+
+footer .top .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .top .content ul{
+    display: flex;
+}
+footer .top .content ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+footer .top .bank-container{
+    display: flex;
+    align-items: center;
+}
+footer .top .bank-container img{
+    margin-right: 8px;
+}
+footer .top .bank-info{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-right: 32px;
+}
+
+footer .top .bank-info span + span{
+    margin-top: 12px;
+}
+footer .top .bank-info span:nth-child(2){
+    letter-spacing: 1.5px;
+}
+footer .top .bank-account-btn{
+    background: #FFCC00;
+    color: white;
+    border-radius: 50px;
+    width: 130px;
+    height: 30px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    transform: translateY(13px);
+}
+
+footer .top .call_number{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: #004A9C;
+    margin-bottom: 16px;
+}
+
+footer .top .divider{
+    border: 1px solid #888;
+    height: 110px;
+    transform: translateY(15px);
+}
+
+footer .middle{
+    width: 100%;
+    background: #E6E6E6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer .middle ul{
+    display: flex;
+    width: 590px;
+    font-size: 0.9rem;
+}
+
+footer .middle ul li + li{
+    margin-left: 20px;
+}
+
+footer .bottom{
+    display: flex;
+    margin-top: 24px;
+}
+footer .bottom img{
+    object-fit: contain;
+}
+
+footer .bottom .divider{
+    border: 1px solid #888;
+    height: 200px;
+    margin-left: 32px;
+    margin-right: 24px;
+}
+
+footer .bottom .text-part{
+    font-size: 0.8rem;
+}
+footer .bottom .text-part p:first-child{
+    margin-bottom: 16px;
+}
+footer .bottom .text-part p{
+    line-height: 1.3rem;
+}
+footer .bottom .text-part .copyright{
+    font-weight: 600;
+    text-transform: uppercase;
+}
