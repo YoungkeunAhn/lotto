@@ -1,0 +1,66 @@
+@import 'reset.css';
+@import 'page-layout.css';
+@import 'header.css';
+@import 'footer.css';
+
+.my-info-container {
+  border: 1px solid #eee;
+  padding: 16px;
+}
+.my-info-container .intro {
+  margin-bottom: 32px;
+}
+.my-info-container .member-name {
+  color: #4287d2;
+  font-weight: 600;
+}
+.my-info-container ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #888;
+}
+.my-info-container ul li + li {
+  margin-top: 16px;
+}
+.my-info-container ul h2 {
+  color: black;
+  margin-bottom: 16px;
+}
+.my-info-container table {
+  font-size: 0.8rem;
+  border-top: 2px solid #ccc;
+  color: black;
+}
+.my-info-container table th {
+  background: #eee;
+  padding: 16px 8px;
+  width: 200px;
+  box-sizing: border-box;
+}
+.my-info-container table td {
+  padding: 16px 8px;
+  box-sizing: border-box;
+}
+.my-info-container table tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.my-info-container .red {
+  color: #f94943;
+}
+
+.my-info-container .blue {
+  color: #2e2ef7;
+}
+
+.my-info-container select {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.my-info-container .config-save-btn {
+  border: 1px solid #888;
+  color: #b84828;
+  background: #fafafa;
+  font-weight: 600;
+  padding: 2px 8px;
+}

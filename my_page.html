@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로또조합기</title>
 
-    <link rel="stylesheet" href="lotto_combiner.css" />
+    <link rel="stylesheet" href="my_page.css" />
   </head>
   <body>
     <header>
@@ -50,10 +50,14 @@
       <div class="main-container">
         <aside>
           <ul class="navigation">
-            <li class="title">로또조합기</li>
-            <li>로또 조합기</li>
-            <li>반자동 조합기</li>
-            <li>당첨예상 조합기</li>
+            <li class="title">마이페이지</li>
+            <li>나의 자료 보관함</li>
+            <li>내 쪽지함</li>
+            <li>출석체크 당첨내역</li>
+            <li>쿠폰현황</li>
+            <li>나의 정보변경</li>
+            <li>회원탈퇴</li>
+            <li>출석이벤트방</li>
           </ul>
 
           <ul class="banner-list">
@@ -92,16 +96,70 @@
           </div>
         </aside>
         <main>
-          <h1>로또 조합기</h1>
-          <table>
-            <thead>
-              <th>번호</th>
-              <th>제목</th>
-              <th>글쓴이</th>
-              <th>날짜</th>
-              <th>조회</th>
-            </thead>
-          </table>
+          <h1>추천조합내역</h1>
+          <div class="my-info-container">
+            <div class="intro">
+              <span class="member-name">회원이름</span>님의 마이페이지입니다.
+            </div>
+
+            <ul>
+              <li>
+                <h2>회원기본정보</h2>
+                <table>
+                  <tr>
+                    <th>회원등급</th>
+                    <td></td>
+                    <th>회원구분</th>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>휴대폰번호</th>
+                    <td>010-1234-1234</td>
+                    <th>회원가입일시</th>
+                    <td>2022-07-26 10:57:30</td>
+                  </tr>
+                </table>
+              </li>
+              <li>
+                <h2>
+                  조합정보
+                  <span class="red"
+                    >(※조합설정은 구매가능한 수량만큼만 설정하세요.)</span
+                  >
+                </h2>
+                <table>
+                  <tr>
+                    <th>조합설정</th>
+                    <td>
+                      <span>일반(무료)조합</span
+                      ><select>
+                        <option value="5">5</option>
+                      </select>
+                      <span class="blue">(일~목)요일까지 조합설정 가능</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>누적 성적현황</th>
+                    <td>
+                      <span>1등(0회)</span>
+                      <span>2등(0회)</span>
+                      <span>3등(0회)</span>
+                      <span>4등(0회)</span>
+                      <span>5등(0회)</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>문자수신여부</th>
+                    <td>
+                      <input type="checkbox" />
+                      <span>광고문자 미수신하기</span>
+                      <button class="config-save-btn">설정저장</button>
+                    </td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </div>
         </main>
       </div>
     </div>
