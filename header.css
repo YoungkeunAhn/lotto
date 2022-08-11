@@ -1,58 +1,58 @@
-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-header nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 1500px;
-}
-
-header nav .left{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 1500px;
 }
 
-header nav ul{
-    display: flex;
+header nav .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-header nav ul li + li{
-    margin-left: 24px;
+header nav ul {
+  display: flex;
+  padding-bottom: 16px;
 }
 
-nav .left img{
-    margin-bottom: 50px;
+header nav ul li + li {
+  margin-left: 24px;
 }
 
-header .top-menu{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-color: #464646;
-    color: white;
+nav .left img {
+  margin-bottom: 50px;
 }
 
-header .top-menu > div{
-    width: 1500px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 8px;
+header .top-menu {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #464646;
+  color: white;
 }
 
-header .top-menu > div > ul{
-    display: flex;
-}
-header .top-menu > div > ul li + li{
-    margin-left: 8px;
-    padding-left: 8px;
-    border-left: 1px solid white;
-}
-header .top-menu > div > ul + ul{
-    margin-left: 24px;
+header .top-menu > div {
+  width: 1500px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 8px;
 }
 
+header .top-menu > div > ul {
+  display: flex;
+}
+header .top-menu > div > ul li + li {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid white;
+}
+header .top-menu > div > ul + ul {
+  margin-left: 24px;
+}

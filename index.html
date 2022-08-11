@@ -1,170 +1,293 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>메인</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main_style.css" />
 
-</head>
-<body>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="top-menu">
-            <div>
-                <ul>
-                    <li>로그인</li>
-                    <li>회원가입</li>
-                </ul>
-                <ul>
-                    <li>공지사항</li>
-                    <li>고객센터</li>
-                    <li>회원혜택</li>
-                </ul>
-            </div>
+      <div class="top-menu">
+        <div>
+          <ul>
+            <li>로그인</li>
+            <li>회원가입</li>
+          </ul>
+          <ul>
+            <li>공지사항</li>
+            <li>고객센터</li>
+            <li>회원혜택</li>
+          </ul>
         </div>
-        <nav>
-            <div class="left">
-                <img src="/pubilc/logo.png" alt="logo">
-                <ul>
-                    <li>로또조합기</li>
-                    <li>로또분석자료실</li>
-                    <li>커뮤니티</li>
-                    <li>마이페이지</li>
-                    <li>고객문의상담</li>
-                </ul>
-            </div>
-            <img src="/pubilc/header_banner.png" alt="banner">
-        </nav>
+      </div>
+      <nav>
+        <div class="left">
+          <a href="/">
+            <img src="/pubilc/logo.png" alt="logo" />
+          </a>
+          <ul>
+            <li><a href="lotto_combiner.html">로또조합기</a></li>
+            <li>로또분석자료실</li>
+            <li>커뮤니티</li>
+            <li>마이페이지</li>
+            <li>고객문의상담</li>
+          </ul>
+        </div>
+        <img src="/pubilc/header_banner.png" alt="banner" />
+      </nav>
     </header>
 
     <main>
-        <div class="main-header">
-            <div class="container">
-                <div>
-                    <p><span class="emphasis">1026</span>회 당첨결과</p>
-                    <p>
-                        당첨금 : <span>1,619,188,475</span>원
-                    </p>
-                    <button>[지난회차 결과보기]</button>
-                </div>
-                <div class="number-part"></div>
-                <div class="login-part">
-                    <ul>
-                        <li>
-                            <div>
-                                <span>kimgabal</span>님
-                                <button class="logout-btn">로그아웃</button>
-                            </div>
-                            
-                        </li>
-                        <li>
-                            <span>나의 결제 내역</span>
-                            <span>|</span>
-                            <span>내정보 변경</span>
-                        </li>
-                        <li>
-                            보유캐시 <span class="emphasis">3,000,000</span>원 
-                            <button>[충전하기]</button>
-                        </li>
-                    </ul>
-                </div>
+      <div class="main-header">
+        <div class="container">
+          <div>
+            <div class="result">
+              <span class="emphasis">1026</span>회 당첨결과<span class="today"
+                >2022-07-30</span
+              >
             </div>
+            <div class="winnings">
+              <div class="text">당첨금 : <span>1,619,188,475</span>원</div>
+              <div class="numbers">
+                <div class="circle yellow">
+                  <span class="inner">1</span>
+                </div>
+                <div class="circle green">
+                  <span class="inner">1</span>
+                </div>
+                <div class="circle blue">
+                  <span class="inner">1</span>
+                </div>
+                <div class="circle red">
+                  <span class="inner">1</span>
+                </div>
+                <div class="circle black">
+                  <span class="inner">1</span>
+                </div>
+                <div class="circle red">
+                  <span class="inner">1</span>
+                </div>
+                <i class="fa-solid fa-plus"></i>
+                <div class="circle black">
+                  <span class="inner">1</span>
+                </div>
+              </div>
+            </div>
+            <button>[지난회차 결과보기]</button>
+          </div>
+          <div class="number-part"></div>
+          <div class="login-part">
+            <ul>
+              <li>
+                <div>
+                  <span class="user-name">kimgabal</span>님
+                  <button class="logout-btn">로그아웃</button>
+                </div>
+              </li>
+              <li>
+                <button>나의 결제 내역</button>
+                <span>|</span>
+                <button>내정보 변경</button>
+              </li>
+              <li>
+                보유캐시 <span class="emphasis">3,000,000</span>원
+                <button>[충전하기]</button>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <div class="main-banner">
+        <h1>
+          데이터 속에 숨어있는 로또 1등의 조건<br />
+          메인 로또에서 찾을 수 있습니다.
+        </h1>
+      </div>
+      <div class="call-box">
+        <div class="container">
+          <div class="left">
+            <img
+              src="https://toppng.com/uploads/preview/gold-medal-png-1154697412563bfunttiw.png"
+              alt="medal"
+            />
+            <p>
+              최신 기술의 차원이 다른 분석데이터<br />업계1위 데이터 보유<br />100%
+              환불보장
+            </p>
+          </div>
+          <div class="right">
+            <div class="input-box">
+              <input type="text" />
+              <span>-</span>
+              <input type="text" />
+              <span>-</span>
+              <input type="text" />
+              <button>상담신청</button>
+            </div>
+            <div class="agree-box">
+              <input type="checkbox" name="" />
+              <span>개인정보수집제공이용동의</span>
+              <button>[자세히보기]</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="combination-suggest">
+        <div class="title">
+          <h1>맞춤 추천 혜택</h1>
+          <span>메인로또가 추천하는 다양한 혜택을 만나보세요!</span>
+        </div>
+        <ul class="combie-list">
+          <li>
+            <a href="">
+              <img src="/pubilc/master.png" alt="master" />
+              <h2>1등 마스터조합</h2>
+              <div class="divider"></div>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/pubilc/diamond.png" alt="diamond" />
+              <h2>2등 다이아몬드조합</h2>
+              <div class="divider"></div>
+              <p>2등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/pubilc/gold.png" alt="gold" />
+              <h2>3등 골드조합</h2>
+              <div class="divider"></div>
+              <p>3등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/pubilc/bronze.png" alt="bronze" />
+              <h2>브론즈조합</h2>
+              <div class="divider"></div>
+              <p>소소한 재미를 위한 것이며,<br />분석기법을 이해하는데 도움</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="intro">
+        <img src="/pubilc/intro.png" alt="intro" width="100%" height="100%" />
+      </section>
     </main>
     <footer>
-        <div class="top">
-            <ul>
-                <li>
-                    <div class="container">
-                        <div class="title">
-                            <h1>추천서비스</h1>
-                            <img src="/pubilc/icon_star.png" alt="star">
-                        </div>
-                        <div class="content">
-                            <ul>
-                                <li>
-                                    <img src="/pubilc/footer_top_1.png" alt="">
-                                    <span>로또조합기</span>
-                                </li>
-                                <li>
-                                    <img src="/pubilc/footer_top_2.png" alt="">
-                                    <span>로또자료실</span>
-                                </li>
-                                <li>
-                                    <img src="/pubilc/footer_top_3.png" alt="">
-                                    <span>마이페이지</span>
-                                </li>
-                                <li>
-                                    <img src="/pubilc/footer_top_4.png" alt="">
-                                    <span>출첵이벤트</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <div class="container">
-                        <div class="title">
-                            <h1>고객센터</h1>
-                            <img src="/pubilc/icon_call.png" alt="call">
-                        </div>
-                        <div class="content">
-                            <span class="call_number">1833-6721</span>
-                            <span>상담시간 : 9:30 ~ 18:30 까지<br/>토,일 공휴일 휴무</span>
-                        </div>
-                    </div>
-                </li>
-                <li class="divider"></li>
-                <li>
-                    <div class="container">
-                        <div class="title">
-                            <h1>입금정보</h1>
-                            <img src="/pubilc/icon_money.png" alt="money">
-                        </div>
-                        <div class="content">
-                            <div class="bank-container">
-                                <img src="/pubilc/kb_bank.png" alt="kb_bank">
-                                <div class="bank-info">
-                                    <span>예금주 : (주)바른생활</span>
-                                    <span>355-0073-2675-83</span>
-                                </div>
-                                <button class="bank-account-btn" type="button">계좌정보문자발송</button>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="middle">
-            <ul>
-                <li>이용약관</li>
-                <li>개인정보처리방침</li>
-                <li>고객센터</li>
-            </ul>
-        </div>
-        <div class="bottom">
-            <img src="/pubilc/footer_logo.png" alt="footer logo">
-            <div class="divider"></div>
-            <div class="text-part">
-                <p>
-                    상호명 : 메인로또 | 대표 : 홍길동 | 사업자등록번호 : 888-00-99999 | 문의전화 : 1888-1888 |<br />
-                    소재지 : 인천광역시 똑발로걸아로 | 통신판매업 신고번호: 제 2000=인천살어-1010호 |
-                </p>
-                <p>
-                    전산상 오류(스팸설정 / 단말기기존 / 통신사 사정)에 따라 문자발송서비스에 차질이 생길수 있습니다.<br/>
-                    문자발송 서비스를 이용하는 회원의 경우 메인로또 홈페이지의 마이페이지에서 매주 발송받는 서비스를 최종 확인 하셔야합니다.<br />
-                    문자미전송으로 인해 발생하는 문제에 대해 메인로또는 책임을 지지 않습니다.<br />
-                    당사의 분석시스템은 누적패턴을 분석/필터링한 정보 제공만을 목적으로 하며,<br />
-                    당첨확률 개선서비스가 아니므로 서비스 이용 과정에서 기대이익을 얻지 못하거나 발생한 손해 등에 대한 최종책임은 서비스 이용자 본인에게 있습니다.<br />
-                    <span class="copyright">COPYRIGHT C 2022 MAINLOTTO ALL RIGHTS RESERVED.</span>
-                </p>
-                
+      <div class="top">
+        <ul>
+          <li>
+            <div class="container">
+              <div class="title">
+                <h1>추천서비스</h1>
+                <img src="/pubilc/icon_star.png" alt="star" />
+              </div>
+              <div class="content">
+                <ul>
+                  <li>
+                    <img src="/pubilc/footer_top_1.png" alt="" />
+                    <span>로또조합기</span>
+                  </li>
+                  <li>
+                    <img src="/pubilc/footer_top_2.png" alt="" />
+                    <span>로또자료실</span>
+                  </li>
+                  <li>
+                    <img src="/pubilc/footer_top_3.png" alt="" />
+                    <span>마이페이지</span>
+                  </li>
+                  <li>
+                    <img src="/pubilc/footer_top_4.png" alt="" />
+                    <span>출첵이벤트</span>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <div class="container">
+              <div class="title">
+                <h1>고객센터</h1>
+                <img src="/pubilc/icon_call.png" alt="call" />
+              </div>
+              <div class="content">
+                <span class="call_number">1833-6721</span>
+                <span>상담시간 : 9:30 ~ 18:30 까지<br />토,일 공휴일 휴무</span>
+              </div>
+            </div>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <div class="container">
+              <div class="title">
+                <h1>입금정보</h1>
+                <img src="/pubilc/icon_money.png" alt="money" />
+              </div>
+              <div class="content">
+                <div class="bank-container">
+                  <img src="/pubilc/kb_bank.png" alt="kb_bank" />
+                  <div class="bank-info">
+                    <span>예금주 : (주)바른생활</span>
+                    <span>355-0073-2675-83</span>
+                  </div>
+                  <button class="bank-account-btn" type="button">
+                    계좌정보문자발송
+                  </button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="middle">
+        <ul>
+          <li>이용약관</li>
+          <li>개인정보처리방침</li>
+          <li>고객센터</li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <img src="/pubilc/footer_logo.png" alt="footer logo" />
+        <div class="divider"></div>
+        <div class="text-part">
+          <p>
+            상호명 : 메인로또 | 대표 : 홍길동 | 사업자등록번호 : 888-00-99999 |
+            문의전화 : 1888-1888 |<br />
+            소재지 : 인천광역시 똑발로걸아로 | 통신판매업 신고번호: 제
+            2000=인천살어-1010호 |
+          </p>
+          <p>
+            전산상 오류(스팸설정 / 단말기기존 / 통신사 사정)에 따라
+            문자발송서비스에 차질이 생길수 있습니다.<br />
+            문자발송 서비스를 이용하는 회원의 경우 메인로또 홈페이지의
+            마이페이지에서 매주 발송받는 서비스를 최종 확인 하셔야합니다.<br />
+            문자미전송으로 인해 발생하는 문제에 대해 메인로또는 책임을 지지
+            않습니다.<br />
+            당사의 분석시스템은 누적패턴을 분석/필터링한 정보 제공만을 목적으로
+            하며,<br />
+            당첨확률 개선서비스가 아니므로 서비스 이용 과정에서 기대이익을 얻지
+            못하거나 발생한 손해 등에 대한 최종책임은 서비스 이용자 본인에게
+            있습니다.<br />
+            <span class="copyright"
+              >COPYRIGHT C 2022 MAINLOTTO ALL RIGHTS RESERVED.</span
+            >
+          </p>
         </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
