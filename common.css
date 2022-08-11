@@ -1,0 +1,15 @@
+table {
+  width: 100%;
+}
+
+thead {
+  border-top: 2px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  background: #eee;
+  font-size: 0.9rem;
+}
+thead th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
