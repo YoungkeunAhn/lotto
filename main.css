@@ -268,3 +268,45 @@ main .intro {
 main .intro img {
   object-fit: contain;
 }
+
+main .login-input-container {
+  display: flex;
+
+}
+main .login-input-container > div{
+  display: flex;
+  flex-direction: column;
+  margin-right: 16px;
+}
+
+main .login-input-container .sub{
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+main .login-input-container .sub input[type="checkbox"]{
+  padding: 0;
+  margin: 0;
+}
+
+main .login-input-container .sub button{
+  font-size: 0.8rem;
+}
+main .login-input-container .login-btn{
+  width: 72px;
+  height: 72px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #707070;
+  color: black;
+  border-radius: 2px;
+  font-weight: 600;
+}
+main .login-input-container > div input:not(.checkbox){
+  width: 172px;
+  height: 25px;
+  padding: 1px;
+}
+
+main .login-input-container input+input{
+  margin-top: 10px;
+}
