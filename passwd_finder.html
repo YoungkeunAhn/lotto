@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+
+    <link rel="stylesheet" href="sub_another.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-menu">
+        <div>
+          <ul>
+            <li>로그인</li>
+            <li>회원가입</li>
+          </ul>
+          <ul>
+            <li>공지사항</li>
+            <li>고객센터</li>
+            <li>회원혜택</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="sub-page-main">
+      <div class="container another">
+        <img src="/public/sub_container_logo.png" alt="logo" width="140px" />
+        <form>
+          <h1>비밀번호 찾기</h1>
+          <p class="explanation">
+            아이디를 입력해주세요.<br />
+            이메일 주소로 인증코드 전달 드리겠습니다
+          </p>
+          <div class="input-box">
+            <span>code</span>
+            <input type="text" id="code" />
+          </div>
+          <div class="button-wrapper">
+            <button type="submit" class="round-btn">전송</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script>
+      document.getElementById('code').focus()
+    </script>
+  </body>
+</html>

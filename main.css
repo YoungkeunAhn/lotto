@@ -117,7 +117,7 @@ main button {
 }
 
 main .main-banner {
-  background-image: url('https://www.benchachinda.co.th/upload_fm/bcg/group/Banner-BCG-Group.jpg');
+  background-image: url('/public/main_banner.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -271,27 +271,26 @@ main .intro img {
 
 main .login-input-container {
   display: flex;
-
 }
-main .login-input-container > div{
+main .login-input-container > div {
   display: flex;
   flex-direction: column;
   margin-right: 16px;
 }
 
-main .login-input-container .sub{
+main .login-input-container .sub {
   font-size: 0.8rem;
   margin-top: 10px;
 }
-main .login-input-container .sub input[type="checkbox"]{
+main .login-input-container .sub input[type='checkbox'] {
   padding: 0;
   margin: 0;
 }
 
-main .login-input-container .sub button{
+main .login-input-container .sub button {
   font-size: 0.8rem;
 }
-main .login-input-container .login-btn{
+main .login-input-container .login-btn {
   width: 72px;
   height: 72px;
   text-align: center;
@@ -301,12 +300,12 @@ main .login-input-container .login-btn{
   border-radius: 2px;
   font-weight: 600;
 }
-main .login-input-container > div input:not(.checkbox){
+main .login-input-container > div input:not(.checkbox) {
   width: 172px;
   height: 25px;
   padding: 1px;
 }
 
-main .login-input-container input+input{
+main .login-input-container input + input {
   margin-top: 10px;
 }

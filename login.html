@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>로그인</title>
 
-    <link rel="stylesheet" href="sign_in.css" />
+    <link rel="stylesheet" href="login_page.css" />
 
     <!-- font-awesome -->
     <link
@@ -30,6 +30,38 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="sub-page-main">
+      <div class="container login">
+        <div class="header">
+          <img src="/public/sub_container_logo.png" alt="logo" />
+          <div>
+            <img src="/public/award.png" alt="award" width="50px" />
+            <span>대한민국 로또분석분야 1등</span>
+          </div>
+        </div>
+
+        <div class="input-box-wrapper">
+          <div class="input-box">
+            <img src="/public/user_icon.png" alt="" width="20px" />
+            <span>아이디</span>
+            <input type="text" id="id" />
+          </div>
+          <div class="input-box">
+            <img src="/public/passwd_icon.png" alt="" width="20px" />
+            <span>비밀번호</span>
+            <input type="password" />
+          </div>
+        </div>
+
+        <div class="button-wrapper">
+          <button class="round-btn">로그인</button>
+          <button class="round-btn">회원가입</button>
+          <button class="normal-btn">아이디/비밀번호찾기</button>
+        </div>
+      </div>
+    </main>
+    <script>
+      document.getElementById('id').focus()
+    </script>
   </body>
 </html>

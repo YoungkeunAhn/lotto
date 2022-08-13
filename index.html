@@ -7,13 +7,19 @@
     <title>메인</title>
 
     <link rel="stylesheet" href="main_style.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
   <body>
     <header>
       <div class="top-menu">
         <div>
           <ul>
-            <li>로그인</li>
+            <li><a href="login.html">로그인</a></li>
             <li>회원가입</li>
           </ul>
           <ul>
@@ -80,7 +86,19 @@
           </div>
           <div class="number-part"></div>
           <div class="login-part">
-            <ul>
+            <div class="login-input-container">
+              <div>
+                <input id="id" type="text" placeholder="아이디" />
+                <input id="password" type="password" placeholder="비밀번호" />
+                <div class="sub">
+                  <input class="checkbox" type="checkbox" />
+                  <span>아이디기억</span>
+                  <button>아이디/비번찾기</button>
+                </div>
+              </div>
+              <button class="login-btn">로그인</button>
+            </div>
+            <!-- <ul>
               <li>
                 <div>
                   <span class="user-name">kimgabal</span>님
@@ -96,7 +114,7 @@
                 보유캐시 <span class="emphasis">3,000,000</span>원
                 <button>[충전하기]</button>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>
@@ -109,7 +127,7 @@
       <div class="call-box">
         <div class="container">
           <div class="left">
-            <img src="/public/medal_x2.png" alt="medal" />
+            <img src="/public/medal_2x.png" alt="medal" />
             <p>
               최신 기술의 차원이 다른 분석데이터<br />업계1위 데이터 보유<br />100%
               환불보장
@@ -140,7 +158,7 @@
         </div>
         <ul class="combie-list">
           <li>
-            <a href="master_combination.html">
+            <a href="combination_master.html">
               <img src="/public/master.png" alt="master" />
               <h2>1등 마스터조합</h2>
               <div class="divider"></div>
@@ -148,7 +166,7 @@
             </a>
           </li>
           <li>
-            <a href="diamond_combination.html">
+            <a href="combination_diamond.html">
               <img src="/public/diamond.png" alt="diamond" />
               <h2>2등 다이아몬드조합</h2>
               <div class="divider"></div>
@@ -156,7 +174,7 @@
             </a>
           </li>
           <li>
-            <a href="gold_combination.html">
+            <a href="combination_gold.html">
               <img src="/public/gold.png" alt="gold" />
               <h2>3등 골드조합</h2>
               <div class="divider"></div>
@@ -164,7 +182,7 @@
             </a>
           </li>
           <li>
-            <a href="bronze_combination.html">
+            <a href="combination_bronze.html">
               <img src="/public/bronze.png" alt="bronze" />
               <h2>브론즈조합</h2>
               <div class="divider"></div>

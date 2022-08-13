@@ -36,6 +36,11 @@ header .top-menu {
   background-color: #464646;
   color: white;
 }
+header .top-menu a,
+header .top-menu a:visited,
+header .top-menu a:active {
+  color: white;
+}
 
 header .top-menu > div {
   width: 1500px;

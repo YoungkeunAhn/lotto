@@ -1,0 +1,28 @@
+@import 'reset.css';
+@import 'page-layout.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'common.css';
+
+.top-btn-wrapper {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 8px;
+}
+.bottom-btn-wrapper {
+  margin-bottom: 16px;
+}
+.write-btn {
+  color: white;
+  background: #764fe9;
+  font-weight: 600;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #888;
+  font-size: 0.8rem;
+}
+
+.write-btn span {
+  color: greenyellow;
+  margin-right: 4px;
+}

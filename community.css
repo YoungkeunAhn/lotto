@@ -1,0 +1,18 @@
+@import 'reset.css';
+@import 'page-layout.css';
+@import 'header.css';
+@import 'footer.css';
+@import 'common.css';
+
+.blue {
+  color: #1c08ff;
+}
+.gray {
+  color: #888;
+}
+.light-blue {
+  color: #3facff;
+}
+.manager img {
+  transform: translateY(8px);
+}

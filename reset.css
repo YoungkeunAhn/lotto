@@ -1,3 +1,5 @@
+/*font - noto sans korean*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 /* reset.css */
 html,
 body,
@@ -112,7 +114,10 @@ a:active {
   text-decoration: none;
 }
 
-
-button:hover{
+button:hover {
   cursor: pointer;
+}
+
+html {
+  font-family: 'Noto Sans KR', sans-serif;
 }

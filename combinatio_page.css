@@ -13,6 +13,8 @@
   width: 572px;
   box-sizing: border-box;
   margin: auto;
+  z-index: 20;
+  background: white;
 }
 .content-container img {
   object-fit: contain;
@@ -36,4 +38,28 @@
 }
 .content-container p + p {
   margin-top: 64px;
+}
+
+.combi_header_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 350px;
+  z-index: 10;
+}
+.combi_header_container > div {
+  display: flex;
+}
+.combi_header_container img {
+  object-fit: contain;
+  z-index: 10;
+}
+
+.combi_header_container > img {
+  position: absolute;
+  z-index: 0;
+  bottom: -130%;
+  left: 0px;
 }

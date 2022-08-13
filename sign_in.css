@@ -1,9 +1,0 @@
-@import 'header.css';
-@import 'common.css';
-
-main {
-  width: 100%;
-  height: calc(100vh - 30px);
-
-  background-image: url('/public/main_bg.png');
-}

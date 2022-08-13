@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입</title>
+
+    <link rel="stylesheet" href="sub_another.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-menu">
+        <div>
+          <ul>
+            <li>로그인</li>
+            <li>회원가입</li>
+          </ul>
+          <ul>
+            <li>공지사항</li>
+            <li>고객센터</li>
+            <li>회원혜택</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="sub-page-main">
+      <div class="container another">
+        <img src="/public/sub_container_logo.png" alt="logo" width="140px" />
+        <form>
+          <h1>회원가입</h1>
+          <ul class="form-list">
+            <li>
+              <label for="id">아이디</label>
+              <div class="input-box">
+                <span>한글만입력</span>
+                <input id="id" type="text" />
+              </div>
+            </li>
+            <li>
+              <label for="passwd">비밀번호</label>
+              <div class="input-box">
+                <span>8자이상, 특수문자 포함</span>
+                <input id="passwd" type="text" />
+              </div>
+            </li>
+            <li>
+              <label for="email">이메일</label>
+              <div class="input-box">
+                <span>인증 가능한 이메일 주소</span>
+                <input id="email" type="email" />
+              </div>
+            </li>
+            <li>
+              <label for="phone_number">휴대폰번호</label>
+              <div class="input-box">
+                <span>- 없이 입력</span>
+                <input id="phone_number" type="text" />
+              </div>
+            </li>
+          </ul>
+          <div class="button-wrapper">
+            <button type="submit" class="round-btn">회원가입</button>
+            <button type="button" class="normal-btn">
+              아이디/비밀번호찾기
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <script>
+      document.getElementById('id').focus()
+    </script>
+  </body>
+</html>

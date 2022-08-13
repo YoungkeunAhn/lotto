@@ -3,7 +3,7 @@
 .page-layout .top-header {
   width: 100%;
   height: 182px;
-  background-image: url('https://i.itworldcanada.com/wp-content/uploads/2021/07/s8f655_1920.jpg');
+  background-image: url('/public/page_header_bg_2x.png');
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -66,7 +66,7 @@
   margin-bottom: 10px;
 }
 
-.page-layout aside .banner-list li {
+.page-layout aside .banner-list a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -77,26 +77,35 @@
   height: 165px;
 }
 
-.page-layout aside .banner-list li span {
+.page-layout aside .banner-list a span {
   font-weight: 600;
   font-size: 1.5rem;
   margin-top: 30px;
 }
 
-.page-layout aside .banner-list li + li {
+.page-layout aside .banner-list a + a {
   margin-top: 10px;
 }
 
 .page-layout aside .lotto_info {
   border-top: 3px solid #232a63;
   padding: 8px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.page-layout aside .lotto_info h1 {
+  margin-bottom: 16px;
 }
 
 .page-layout aside .lotto_info * + * {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 .page-layout aside .lotto_info label {
   margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #888;
 }
 
 .page-layout main h1 {

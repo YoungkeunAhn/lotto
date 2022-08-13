@@ -1,5 +1,7 @@
 table {
   width: 100%;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 32px;
 }
 
 thead {
@@ -7,9 +9,92 @@ thead {
   border-bottom: 1px solid #ddd;
   text-align: left;
   background: #eee;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 thead th {
   padding-top: 8px;
   padding-bottom: 8px;
+}
+thead .title {
+  width: 500px;
+}
+thead th:first-child,
+tbody tr td:first-child {
+  padding-left: 4px;
+}
+
+tbody tr {
+  height: 45px;
+  font-size: 0.9rem;
+}
+tbody tr + tr {
+  border-top: 1px solid #eee;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #eee;
+  padding-left: 4px;
+  margin-bottom: 32px;
+}
+.pagination span {
+  border-right: 1px solid #eee;
+  padding-right: 4px;
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.pagination .current {
+  color: #3facff;
+  font-weight: 600;
+}
+.pagination span + span {
+  margin-left: 4px;
+}
+
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box input,
+.search-box select,
+.search-box button {
+  padding: 4px;
+}
+.search-box button {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+.search-box button[type='submit'] {
+  border: 1px solid #888;
+  background: #fbfbfb;
+}
+
+.search-box * + * {
+  margin-left: 8px;
+}
+
+.sub-page-main {
+  width: 100%;
+  height: calc(100vh - 32px);
+
+  background-image: url('/public/main_banner_2x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-page-main .container {
+  background: white;
+  padding: 32px 24px;
+  width: 390px;
+  box-sizing: border-box;
 }
