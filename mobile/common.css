@@ -1,0 +1,59 @@
+@import '../reset.css';
+
+html {
+  max-width: 800px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 16px 16px 16px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.combie-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.combie-list li {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.combie-list li h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.suggest-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.suggest-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggest-list li img {
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.suggest-list li + li {
+  margin-left: 32px;
+}
