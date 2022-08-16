@@ -16,98 +16,228 @@
   <body>
     <header>
       <img src="../public/logo.png" alt="mainlotto" />
-      <button>
+      <button id="menu-open">
         <i class="fa-solid fa-bars"></i>
       </button>
+      <nav id="menu" class="hidden">
+        <button class="close-btn" id="menu-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="list-wrapper">
+          <a href="">
+            <span>로또조합기</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>로또분석자료실</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>커뮤니티</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>마이페이지</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>고객문의상담</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <div class="call-number">
+            <span>1833-6220</span>
+            <span>전화문의 (평일 09시 ~ 18시)</span>
+          </div>
+          <a href="">카톡상담바로가기</a>
+        </div>
+        <button class="logout-btn">로그아웃</button>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="login-part">
+        <!-- 비로그인시 -->
+        <div class="no-login">
+          <button>로그인</button>
+          <span>|</span>
+          <button>회원가입</button>
+        </div>
+        <!-- <div class="left">
+          <div class="intro-text"><span>kimgabal</span>님, 반갑습니다</div>
+          <div class="btn-wrapper">
+            <div>
+              <img src="../public/mobile/star.svg" alt="" /><span
+                >보유캐시</span
+              >
+              <h2 class="cash">3,000,000원</h2>
+            </div>
+            <button class="charge-btn">충전하기</button>
+          </div>
+        </div>
+        <div class="right">
+          <button>나의 결제내역</button>
+          <span>|</span>
+          <button>내정보 변경</button>
+        </div> -->
+      </div>
+      <div class="main-img-part">
+        <img
+          src="../public/mobile/main_banner.png"
+          alt="메인배너"
+          width="100%"
+        />
+      </div>
+      <div class="lotto-info-part">
+        <div class="top">
+          <div>
+            <h2><span class="red">1026</span>회 당첨결과</h2>
+            <span class="date">2022-07-30</span>
+          </div>
+          <button>[지난회차 결과보기]</button>
+        </div>
+        <div class="bottom">
+          <img
+            src="../public/mobile/winner.png"
+            alt="winner"
+            class="winner"
+            width="70px"
+          />
+          <div>
+            <img
+              src="../public/mobile/numbers.png"
+              alt="numbers"
+              class="numbers"
+              width="100%"
+            />
+            <h2>1등 당첨금 : <span>1,619,118,475</span>원</h2>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
-      <ul class="combie-list">
-        <li>
-          <div class="combie-box">
-            <img src="../public/master.png" alt="" />
-            <h2>1등 마스터조합</h2>
-            <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
-          </div>
-        </li>
-        <li>
-          <div class="combie-box">
-            <img src="../public/diamond.png" alt="" />
-            <h2>2등 다이아몬드조합</h2>
-            <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
-          </div>
-        </li>
-        <li>
-          <div class="combie-box">
-            <img src="../public/gold.png" alt="" />
-            <h2>3등 골드조합</h2>
-            <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
-          </div>
-        </li>
-        <li>
-          <div class="combie-box">
-            <img src="../public/bronze.png" alt="" />
-            <h2>브론즈조합</h2>
-            <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
-          </div>
-        </li>
-      </ul>
+      <section class="combie-part">
+        <div class="title">
+          <h2>맞춤 추천 혜택</h2>
+          <p>메인로또가 추천하는 다양한 혜택을 만나보세요!</p>
+        </div>
+        <ul class="combie-list">
+          <li class="master">
+            <div class="combie-box">
+              <img src="../public/master.png" alt="" />
+              <h2>1등 마스터조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+          <li class="diamond">
+            <div class="combie-box">
+              <img src="../public/diamond.png" alt="" />
+              <h2>2등 다이아몬드조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+          <li class="gold">
+            <div class="combie-box">
+              <img src="../public/gold.png" alt="" />
+              <h2>3등 골드조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+          <li class="bronze">
+            <div class="combie-box">
+              <img src="../public/bronze.png" alt="" />
+              <h2>브론즈조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+        </ul>
+      </section>
 
-      <div class="suggest-part">
+      <div class="only-main">
+        <img src="../public/mobile/3d_logo.png" alt="" width="100px" />
+        <p>
+          메인 로또는 AWS 기반 딥 러닝을 사용하는 현존하는 가장 진보한<br />
+          로또 분석 시스템을 보유하고 있습니다.<br />
+        </p>
+        <p>
+          메인 로또의 기술력으로 로또 1등 당첨에 한 발짝 더 다가설 수
+          있습니다.<br />
+          메인로또만의 분석기법 마스터분석조합 시스템이 완벽히 업그레이드<br />
+          되어 1등 당첨의 확률을 확실하게 높혔습니다.<br />
+        </p>
+        <img src="../public/mobile/analysis.png" alt="" width="100%" />
+      </div>
+
+      <section class="suggest-part">
         <ul class="suggest-list">
           <li>
-            <img src="../public/icon_money.png" alt="" />
+            <img src="../public/mobile/puzzle.svg" alt="로또조합기" />
             <span>로또조합기</span>
           </li>
           <li>
-            <img src="../public/icon_money.png" alt="" />
+            <img src="../public/mobile/lotto_folder.svg" alt="로또자료실" />
             <span>로또자료실</span>
           </li>
           <li>
-            <img src="../public/icon_money.png" alt="" />
+            <img src="../public/mobile/mypage.svg" alt="마이페이지" />
             <span>마이페이지</span>
           </li>
           <li>
-            <img src="../public/icon_money.png" alt="" />
+            <img src="../public/mobile/check.svg" alt="출석이벤트" />
             <span>출석이벤트</span>
           </li>
         </ul>
-       </div>
+      </section>
 
-
-      <div class="bank-info-box">
-        <h2></h2>
-      </div>
-
-      <div class="call-info-box">
-        <h2>고객센터</h2>
-        <div>
-
+      <section class="bank-info-part">
+        <h2>입금정보</h2>
+        <div class="info-wrapper">
+          <img src="../public/kb_bank.png" alt="kb_bank" />
+          <div>
+            <span>예금주 : (주)바른생활</span>
+            <span>355-0073-2675-83</span>
+          </div>
+          <button class="account-info-send-btn">계좌정보문자발송</button>
         </div>
-      </div>
+      </section>
 
-      <div>
-        <ul>
-            <li>이용약관</li>
-            <li>개인정보처리방침</li>
-            <li>이메일무단수집거부</li>
+      <section class="call-info-box">
+        <h2>고객센터</h2>
+        <div class="info-wrapper">
+          <span>1833-6721</span>
+          <p>상담시간 : 9:30 ~ 18:30 까지<br />토,일 공휴일 휴무</p>
+        </div>
+      </section>
+
+      <section class="terms-part">
+        <ul class="terms-list">
+          <li>이용약관</li>
+          <li>개인정보처리방침</li>
+          <li>이메일무단수집거부</li>
         </ul>
-      </div>
+      </section>
 
-      <div>
+      <section class="company-info-part">
         <span class="company_name">메인로또</span>
-        <span>서울시 강남구 논현동88길 8888<span>
-            <div>
-                <span>사업자번호 : 862-88-888888</span>
-                <span>통신판매신고번호 : 2022-인천-0220</span>
-            </div>
-            <div>
-                <span>이메일 : www.www@w.com</span>
-                <span>팩스 : 02-6280-0036</span>
-            </div>
-            <span class="main_call_num">대표전화 : 1888-1888</span>
-            <span class="copyright">Copyright (C)GNA. All rights reserved.</span>
-      </div>
+        <span>서울시 강남구 논현동88길 8888</span>
+        <div>
+          <span>사업자번호 : 862-88-888888</span>
+          <span>통신판매신고번호 : 2022-인천-0220</span>
+        </div>
+        <div>
+          <span>이메일 : www.www@w.com</span>
+          <span>팩스 : 02-6280-0036</span>
+        </div>
+        <span class="main_call_num">대표전화 : 1888-1888</span>
+        <span class="copyright">Copyright (C)GNA. All rights reserved.</span>
+      </section>
     </footer>
+    <script>
+      document.getElementById('menu-close').addEventListener('click', () => {
+        document.getElementById('menu').classList.add('hidden')
+      })
+
+      document.getElementById('menu-open').addEventListener('click', () => {
+        document.getElementById('menu').classList.remove('hidden')
+      })
+    </script>
   </body>
 </html>

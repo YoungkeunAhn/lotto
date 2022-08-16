@@ -1,0 +1,150 @@
+:root {
+  --dark-gray: #4d4d4d;
+  --dark-yellow: #ffcc00;
+  --dark-blue: #004a9c;
+  --master-bg: #fff7f7;
+  --diamond-bg: #f7f7f7;
+  --gold-bg: #fffef4;
+  --bronze-bg: #fff9f5;
+}
+footer {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+footer section {
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+footer section h2 {
+  margin-bottom: 24px;
+}
+.combie-part {
+  padding: 0;
+}
+.combie-part .title {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 16px;
+  padding-bottom: 32px;
+  width: 100%;
+}
+.combie-part .title h2 {
+  margin-bottom: 4px;
+}
+.combie-part .title p {
+  font-size: 0.8rem;
+}
+.combie-list,
+.combie-list li {
+  width: 100%;
+}
+.combie-list li p {
+  font-size: 0.8rem;
+}
+.combie-list .master {
+  background: var(--master-bg);
+}
+.combie-list .diamond {
+  background: var(--diamond-bg);
+}
+.combie-list .gold {
+  background: var(--gold-bg);
+}
+.combie-list .bronze {
+  background: var(--bronze-bg);
+}
+
+.suggest-list {
+  font-size: 0.8rem;
+}
+
+.bank-info-part .info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  margin: auto;
+}
+
+.bank-info-part .info-wrapper > div {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+}
+.bank-info-part .info-wrapper > div span + span {
+  margin-top: 8px;
+}
+.bank-info-part .account-info-send-btn {
+  border-radius: 50px;
+  width: 130px;
+  padding: 12px;
+  box-sizing: border-box;
+  background: var(--dark-yellow);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.call-info-box .info-wrapper {
+  display: flex;
+  max-width: 500px;
+  margin: auto;
+}
+
+.call-info-box .info-wrapper span {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--dark-blue);
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.call-info-box .info-wrapper p {
+  margin-left: 16px;
+  font-size: 0.8rem;
+}
+
+.terms-part {
+  width: 100%;
+  padding: 16px;
+  background: var(--dark-gray);
+  display: flex;
+  justify-content: center;
+}
+.terms-list {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.terms-list li + li {
+  margin-left: 16px;
+}
+
+.company-info-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+  padding: 24px;
+}
+
+.company-info-part * + * {
+  margin-top: 8px;
+}
+
+.company-info-part > div * + * {
+  margin-left: 8px;
+}
+.company-info-part .main_call_num {
+  font-weight: 600;
+  color: black;
+}

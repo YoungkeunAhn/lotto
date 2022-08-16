@@ -57,3 +57,7 @@ footer {
 .suggest-list li + li {
   margin-left: 32px;
 }
+
+p {
+  line-height: 1.2rem;
+}

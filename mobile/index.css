@@ -1,1 +1,152 @@
 @import 'common.css';
+@import 'header.css';
+@import 'footer.css';
+
+:root {
+  --gray-bg: #464646;
+  --pink-color: #ff6c6c;
+  --red-color: #ff4141;
+}
+
+main {
+  color: white;
+}
+
+.login-part {
+  display: flex;
+  padding: 16px;
+  background: var(--gray-bg);
+}
+
+.login-part {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.no-login {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.no-login button {
+  color: white;
+}
+
+.login-part .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-part .intro-text {
+  margin-bottom: 8px;
+}
+.login-part .intro-text span {
+  font-weight: 500;
+  margin-right: 4px;
+}
+
+.login-part .btn-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.login-part .btn-wrapper .cash {
+  color: var(--pink-color);
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  margin-top: 4px;
+}
+.login-part .charge-btn {
+  background: white;
+  border-radius: 30px;
+  width: 70px;
+  height: 30px;
+  padding: 0px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin: 0px;
+  margin-left: 32px;
+}
+
+.login-part .right button {
+  font-size: 0.7rem;
+  color: white;
+}
+
+.main-img-part,
+.main-img-part img {
+  margin: 0;
+  padding: 0;
+}
+
+.main-img-part img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.lotto-info-part {
+  padding: 16px;
+  background: var(--gray-bg);
+}
+
+.lotto-info-part .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.lotto-info-part button {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.lotto-info-part .top > div {
+  display: flex;
+  align-items: flex-end;
+}
+.lotto-info-part .red {
+  color: var(--red-color);
+}
+.lotto-info-part .date {
+  margin-left: 16px;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.lotto-info-part .bottom {
+  display: flex;
+  align-items: center;
+}
+
+.lotto-info-part .bottom img {
+  object-fit: contain;
+}
+
+.lotto-info-part .bottom .numbers {
+  margin-bottom: 8px;
+  max-width: 250px;
+}
+
+.lotto-info-part .bottom .winner {
+  margin-right: 16px;
+}
+.only-main p {
+  font-size: 0.8rem;
+  margin-left: 16px;
+}
+.only-main p + p {
+  margin-top: 16px;
+}
+.only-main img {
+  object-fit: contain;
+}
+
+.only-main img:first-child {
+  margin-left: 16px;
+}
+
+.only-main img:last-child {
+  margin-top: 32px;
+}
