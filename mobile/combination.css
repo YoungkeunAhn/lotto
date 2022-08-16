@@ -1,0 +1,26 @@
+@import 'common.css';
+@import 'header.css';
+@import 'footer.css';
+
+.combie-part .combie-list .info-box {
+  background-image: url('../public/mobile/analysis.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100%;
+}
+
+.combie-part .combie-list .info-box .white-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 32px 0px;
+}
+
+.combie-part .combie-list .info-box .white-wrapper p {
+  line-height: 2rem;
+  font-size: 0.8rem;
+}
+
+.intro img + img {
+  margin-top: 32px;
+}

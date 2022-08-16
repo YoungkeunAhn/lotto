@@ -58,8 +58,18 @@ footer section h2 {
   background: var(--bronze-bg);
 }
 
+.combie-list .combie-box {
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
 .suggest-list {
   font-size: 0.8rem;
+}
+
+.suggest-part .title {
+  display: flex;
+  margin-bottom: 32px;
 }
 
 .bank-info-part .info-wrapper {

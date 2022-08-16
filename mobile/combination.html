@@ -1,17 +1,12 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>메인</title>
+    <title>Document</title>
 
-    <link rel="stylesheet" href="index.css" />
-    <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    />
+    <link rel="stylesheet" href="combination.css" />
   </head>
   <body>
     <header>
@@ -53,78 +48,30 @@
         <button class="logout-btn">로그아웃</button>
       </nav>
     </header>
+
     <main>
-      <div class="login-part">
-        <!-- 비로그인시 -->
-        <div class="no-login">
-          <button>로그인</button>
-          <span>|</span>
-          <button>회원가입</button>
-        </div>
-        <!-- <div class="left">
-          <div class="intro-text"><span>kimgabal</span>님, 반갑습니다</div>
-          <div class="btn-wrapper">
-            <div>
-              <img src="../public/mobile/star.svg" alt="" /><span
-                >보유캐시</span
-              >
-              <h2 class="cash">3,000,000원</h2>
-            </div>
-            <button class="charge-btn">충전하기</button>
-          </div>
-        </div>
-        <div class="right">
-          <button>나의 결제내역</button>
-          <span>|</span>
-          <button>내정보 변경</button>
-        </div> -->
-      </div>
-      <div class="main-img-part">
-        <img
-          src="../public/mobile/main_banner.png"
-          alt="메인배너"
-          width="100%"
-        />
-      </div>
-      <div class="lotto-info-part">
-        <div class="top">
-          <div>
-            <h2><span class="red">1026</span>회 당첨결과</h2>
-            <span class="date">2022-07-30</span>
-          </div>
-          <button>[지난회차 결과보기]</button>
-        </div>
-        <div class="bottom">
-          <img
-            src="../public/mobile/winner.png"
-            alt="winner"
-            class="winner"
-            width="70px"
-          />
-          <div>
-            <img
-              src="../public/mobile/numbers.png"
-              alt="numbers"
-              class="numbers"
-              width="100%"
-            />
-            <h2>1등 당첨금 : <span>1,619,118,475</span>원</h2>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer>
+      <section class="intro">
+        <img src="../public/mobile/combination_main.png" alt="" width="100%" />
+        <img src="../public/mobile/combination_sub.png" alt="" width="100%" />
+      </section>
       <section class="combie-part">
-        <div class="title">
-          <h2>맞춤 추천 혜택</h2>
-          <p>메인로또가 추천하는 다양한 혜택을 만나보세요!</p>
-        </div>
         <ul class="combie-list">
           <li class="master">
             <div class="combie-box">
               <img src="../public/master.png" alt="" />
               <h2>1등 마스터조합</h2>
               <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+            <div class="info-box">
+              <div class="white-wrapper">
+                <p>
+                  메인로또 만의 AWS딥러닝 시스템의 모든기능을<br />
+                  총동원하여 유용한 패턴기반, 800만여개의 샘플링<br />
+                  데이터를 추출하여 확실한 당첨을 제공해드립니다.<br />
+                  (당첨 성과에 대한 안정성을 보장하기에 한정된 인원<br />
+                  으로만 운영되는 시스템이므로 예약진행 바랍니다.)
+                </p>
+              </div>
             </div>
           </li>
           <li class="diamond">
@@ -150,22 +97,9 @@
           </li>
         </ul>
       </section>
+    </main>
 
-      <div class="only-main">
-        <img src="../public/mobile/3d_logo.png" alt="" width="100px" />
-        <p>
-          메인 로또는 AWS 기반 딥 러닝을 사용하는 현존하는 가장 진보한<br />
-          로또 분석 시스템을 보유하고 있습니다.<br />
-        </p>
-        <p>
-          메인 로또의 기술력으로 로또 1등 당첨에 한 발짝 더 다가설 수
-          있습니다.<br />
-          메인로또만의 분석기법 마스터분석조합 시스템이 완벽히 업그레이드<br />
-          되어 1등 당첨의 확률을 확실하게 높혔습니다.<br />
-        </p>
-        <img src="../public/mobile/analysis.png" alt="" width="100%" />
-      </div>
-
+    <footer>
       <section class="suggest-part">
         <div class="title">
           <h1>추천서비스</h1>
