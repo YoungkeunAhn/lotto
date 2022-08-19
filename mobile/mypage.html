@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>마이페이지</title>
+
+    <link rel="stylesheet" href="mypage.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="../public/logo.png" alt="mainlotto" />
+      <button id="menu-open">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <nav id="menu" class="hidden">
+        <button class="close-btn" id="menu-close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="list-wrapper">
+          <a href="">
+            <span>로또조합기</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>로또분석자료실</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>커뮤니티</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>마이페이지</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <a href="">
+            <span>고객문의상담</span>
+            <i class="fa-solid fa-angle-right"></i>
+          </a>
+          <div class="call-number">
+            <span>1833-6220</span>
+            <span>전화문의 (평일 09시 ~ 18시)</span>
+          </div>
+          <a href="">카톡상담바로가기</a>
+        </div>
+        <button class="logout-btn">로그아웃</button>
+      </nav>
+    </header>
+
+    <main>
+      <img src="../public/mobile/mypage_header.png" alt="" width="100%" />
+      <nav>
+        <select name="" id="">
+          <option value="마이페이지">마이페이지</option>
+        </select>
+        <div class="divider"></div>
+        <select name="" id="">
+          <option value="당첨자랑">당첨자랑</option>
+        </select>
+      </nav>
+      <div class="numbers_info">
+        <div class="left">
+          <h2>1026회 추첨정보</h2>
+          <img src="../public/mobile/awards.png" alt="award" height="65px;" />
+        </div>
+        <div class="right">
+          <div>
+            <span>당첨번호</span>
+            <img
+              src="../public/mobile/page_header_numbers.png"
+              alt="numbers"
+              width="175px"
+            />
+          </div>
+          <div>
+            <span>나온순서</span>
+            <img
+              src="../public/mobile/page_header_numbers.png"
+              alt="numbers"
+              width="175px"
+            />
+          </div>
+          <div>
+            <span>모의번호</span>
+            <img
+              src="../public/mobile/page_header_numbers.png"
+              alt="numbers"
+              width="175px"
+            />
+          </div>
+        </div>
+      </div>
+      <ul class="post-list">
+        <li>
+          <div class="top">
+            <span class="round">[1020회]</span>
+            <span class="rank-box">5등</span>
+            <span class="title">-5등 4개당첨</span>
+            <span class="number">(4)</span>
+          </div>
+          <div class="bottom">
+            <span>둠 닥터</span>
+            <div class="divider"></div>
+            <span>추천<b>7</b></span>
+            <div class="divider"></div>
+            <span>조회</span>
+            <div class="divider"></div>
+            <span>5469</span>
+            <div class="divider"></div>
+            <span>2022-07-19 20:38</span>
+          </div>
+        </li>
+
+        <li>
+          <div class="top">
+            <span class="round">[1020회]</span>
+            <span class="rank-box">5등</span>
+            <span class="title">-5등 4개당첨</span>
+            <span class="number">(4)</span>
+          </div>
+          <div class="bottom">
+            <span>둠 닥터</span>
+            <div class="divider"></div>
+            <span>추천<b>7</b></span>
+            <div class="divider"></div>
+            <span>조회</span>
+            <div class="divider"></div>
+            <span>5469</span>
+            <div class="divider"></div>
+            <span>2022-07-19 20:38</span>
+          </div>
+        </li>
+
+        <li>
+          <div class="top">
+            <span class="round">[1020회]</span>
+            <span class="rank-box">5등</span>
+            <span class="title">-5등 4개당첨</span>
+            <span class="number">(4)</span>
+          </div>
+          <div class="bottom">
+            <span>둠 닥터</span>
+            <div class="divider"></div>
+            <span>추천<b>7</b></span>
+            <div class="divider"></div>
+            <span>조회</span>
+            <div class="divider"></div>
+            <span>5469</span>
+            <div class="divider"></div>
+            <span>2022-07-19 20:38</span>
+          </div>
+        </li>
+      </ul>
+      <div class="pagenation-wrapper">
+        <span>1</span>
+        <div class="divider"></div>
+        <span>2</span>
+        <div class="divider"></div>
+        <span>3</span>
+        <div class="divider"></div>
+        <span>4</span>
+        <div class="divider"></div>
+        <span>5</span>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+      <div class="post-search-wrapper">
+        <form>
+          <input type="text" />
+          <button type="submit" class="search-btn">검색</button>
+        </form>
+        <button class="write-btn">글쓰기</button>
+      </div>
+    </main>
+
+    <footer>
+      <section class="combie-part">
+        <ul class="combie-list">
+          <li class="master">
+            <div class="combie-box">
+              <img src="../public/master.png" alt="" />
+              <h2>1등 마스터조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+          <li class="diamond">
+            <div class="combie-box">
+              <img src="../public/diamond.png" alt="" />
+              <h2>2등 다이아몬드조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+          <li class="gold">
+            <div class="combie-box">
+              <img src="../public/gold.png" alt="" />
+              <h2>3등 골드조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+          <li class="bronze">
+            <div class="combie-box">
+              <img src="../public/bronze.png" alt="" />
+              <h2>브론즈조합</h2>
+              <p>1등 미당첨시 서비스기간 연장 후<br />가입비 환불 진행</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="suggest-part">
+        <div class="title">
+          <h1>추천서비스</h1>
+          <img src="../public/mobile/star.svg" alt="star" />
+        </div>
+        <ul class="suggest-list">
+          <li>
+            <img src="../public/mobile/puzzle.svg" alt="로또조합기" />
+            <span>로또조합기</span>
+          </li>
+          <li>
+            <img src="../public/mobile/lotto_folder.svg" alt="로또자료실" />
+            <span>로또자료실</span>
+          </li>
+          <li>
+            <img src="../public/mobile/mypage.svg" alt="마이페이지" />
+            <span>마이페이지</span>
+          </li>
+          <li>
+            <img src="../public/mobile/check.svg" alt="출석이벤트" />
+            <span>출석이벤트</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="bank-info-part">
+        <h2>입금정보</h2>
+        <div class="info-wrapper">
+          <img src="../public/kb_bank.png" alt="kb_bank" />
+          <div>
+            <span>예금주 : (주)바른생활</span>
+            <span>355-0073-2675-83</span>
+          </div>
+          <button class="account-info-send-btn">계좌정보문자발송</button>
+        </div>
+      </section>
+
+      <section class="call-info-box">
+        <h2>고객센터</h2>
+        <div class="info-wrapper">
+          <span>1833-6721</span>
+          <p>상담시간 : 9:30 ~ 18:30 까지<br />토,일 공휴일 휴무</p>
+        </div>
+      </section>
+
+      <section class="terms-part">
+        <ul class="terms-list">
+          <li>이용약관</li>
+          <li>개인정보처리방침</li>
+          <li>이메일무단수집거부</li>
+        </ul>
+      </section>
+
+      <section class="company-info-part">
+        <span class="company_name">메인로또</span>
+        <span>서울시 강남구 논현동88길 8888</span>
+        <div>
+          <span>사업자번호 : 862-88-888888</span>
+          <span>통신판매신고번호 : 2022-인천-0220</span>
+        </div>
+        <div>
+          <span>이메일 : www.www@w.com</span>
+          <span>팩스 : 02-6280-0036</span>
+        </div>
+        <span class="main_call_num">대표전화 : 1888-1888</span>
+        <span class="copyright">Copyright (C)GNA. All rights reserved.</span>
+      </section>
+    </footer>
+    <script src="button_event.js"></script>
+  </body>
+</html>
